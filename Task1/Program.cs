@@ -29,6 +29,7 @@ namespace Lab3_1
             {
                 int x4 = x2;
                 int y4 = y1;
+
                 Console.WriteLine("Координаты х4 и у4: {0},{1}", x4, y4);
             }
             else if (x1 == x3 && y1 == y2)
