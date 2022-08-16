@@ -20,6 +20,7 @@ namespace Lab9
                 Console.WriteLine("Введите код операции: \n\t 1 - сложение \n\t 2 - вычитание \n\t 3 - произведение \n\t 4 - частное");
                 Console.Write("Ваш выбор: ");
                 int z = Convert.ToInt32(Console.ReadLine());
+
                 switch (z)
                 {
                     case 1:

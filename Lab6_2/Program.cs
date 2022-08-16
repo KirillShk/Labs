@@ -15,6 +15,7 @@ namespace Lab6_2
             string s1t = ""; // переменная для преобразование строки s1
             string s2 = "";
             string[] s1Array = s1.Split();
+
             foreach (string s in s1Array)
             {
                 s1t += s.ToLower();

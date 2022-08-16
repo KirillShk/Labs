@@ -16,6 +16,7 @@ namespace Lab7_2
         static void Main(string[] args)
         {
             Console.WriteLine("Введите значение ребра куба:");
+
             double a = Convert.ToInt32(Console.ReadLine());
             double s;
             double v;

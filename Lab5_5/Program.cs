@@ -12,6 +12,7 @@ namespace Lab5_5
         {
             Console.WriteLine("Введите размерность массива");
             int n = Convert.ToInt32(Console.ReadLine());
+
             int[,] array = new int[n, n];
             for (int i = 0; i < n; i++)
             {

@@ -25,6 +25,7 @@ namespace Lab7_1
             double y2 = Convert.ToInt32(Console.ReadLine());
             double z2 = Convert.ToInt32(Console.ReadLine());
             double S2 = GetAreaTriangle(x2, y2, z2);
+
             if (S1 > S2)
                 Console.WriteLine("Площадь треугольника 1 больше");
             else if (S2 < S1)
