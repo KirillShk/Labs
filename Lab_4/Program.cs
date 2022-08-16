@@ -19,6 +19,6 @@ namespace Lab_4
             }
             Console.WriteLine(sum);
             Console.ReadKey();
-        }
+        } 
     }
 }
