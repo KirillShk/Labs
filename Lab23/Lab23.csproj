@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A01B27FB-3AE3-42F2-B288-E7EFB3E968BB}</ProjectGuid>
+    <ProjectGuid>{A8180967-6965-40D3-9B86-BA8E218D65F8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lab10</RootNamespace>
-    <AssemblyName>Lab10</AssemblyName>
+    <RootNamespace>Lab23</RootNamespace>
+    <AssemblyName>Lab23</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,7 +45,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Radians.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

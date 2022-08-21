@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A01B27FB-3AE3-42F2-B288-E7EFB3E968BB}</ProjectGuid>
+    <ProjectGuid>{E475F49C-EF82-486F-99CE-46A3A21AE5E7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lab10</RootNamespace>
-    <AssemblyName>Lab10</AssemblyName>
+    <RootNamespace>Lab11</RootNamespace>
+    <AssemblyName>Lab11</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Linear_equation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Radians.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
